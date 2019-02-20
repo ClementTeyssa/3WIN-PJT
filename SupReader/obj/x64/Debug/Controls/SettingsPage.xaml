@@ -12,6 +12,17 @@
         <AppBarButton x:ConnectionId='3' Icon="Back" Style="{StaticResource NavigationBackButtonNormalStyle}"                           />
         <StackPanel Margin="25">
             <TextBlock Text="Paramètres"/>
+            <StackPanel Margin="25">
+                <TextBlock Text="Ajouter une nouvelle source"/>
+                <TextBox x:ConnectionId='4' x:Name="NewSourceLien" PlaceholderText="Lien de la source"/>
+                <Button x:ConnectionId='5' x:Name="NewSourceBouton" Margin="25"                              >Ajouter</Button>
+                <TextBlock x:ConnectionId='6' x:Name="NewSourceErreur"/>
+            </StackPanel>
+            <ListView>
+                
+            </ListView>
+            
+            
             <ToggleSwitch Header="Afficher les icônes des articles"/>
             <TextBlock Text="Thème (Nécessite un redémarrage de l'application)"/>
             <RadioButton Tag="Light" Content="Clair"/>

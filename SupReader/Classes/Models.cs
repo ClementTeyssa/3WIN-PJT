@@ -8,7 +8,7 @@ namespace SupReader.Classes
 {
     public class Source
     {
-        public Boolean Active { get; set; }
+        public Boolean Active { get; set; } = true;
         public String Titre { get; set; }
         public String Lien { get; set; }
         public String Description { get; set; }

@@ -235,3 +235,15 @@ D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Devel
 D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\obj\x64\Debug\Controls\SettingsPage.g.cs
 D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\obj\x64\Debug\Controls\SettingsPage.xaml
 D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\obj\x64\Debug\Controls\SettingsPage.xbf
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\bin\x64\Debug\Newtonsoft.Json.dll
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\bin\x64\Debug\Newtonsoft.Json.pdb
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\bin\x64\Debug\System.Console.dll
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\bin\x64\Debug\System.ComponentModel.Primitives.dll
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\bin\x64\Debug\System.ComponentModel.TypeConverter.dll
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\bin\x64\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\bin\x64\Debug\System.Runtime.Serialization.Formatters.dll
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\obj\x64\Debug\FxResources.System.Console.SR.resw
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\obj\x64\Debug\FxResources.System.ComponentModel.Primitives.SR.resw
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\obj\x64\Debug\FxResources.System.ComponentModel.TypeConverter.SR.resw
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\obj\x64\Debug\FxResources.System.Runtime.InteropServices.RuntimeInformation.SR.resw
+D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\SupReader\obj\x64\Debug\FxResources.System.Runtime.Serialization.Formatters.SR.resw

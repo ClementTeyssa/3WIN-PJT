@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="SupReader.Controls.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SupReader.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel x:ConnectionId='2' x:Name="GoBack_Button">
+        <AppBarButton x:ConnectionId='3' Icon="Back" Style="{StaticResource NavigationBackButtonNormalStyle}"                           />
+        <StackPanel Margin="25">
+            <TextBlock Text="Paramètres"/>
+            <ToggleSwitch Header="Afficher les icônes des articles"/>
+            <TextBlock Text="Thème (Nécessite un redémarrage de l'application)"/>
+            <RadioButton Tag="Light" Content="Clair"/>
+            <RadioButton Tag="Dark" Content="Sombre"/>
+            <HyperlinkButton Content="Pulication des étudiants de SUPINFO"/>
+            <HyperlinkButton Content="Site institutionnel SUPINFO"/>
+        </StackPanel>
+    </StackPanel>
+</Page>
+

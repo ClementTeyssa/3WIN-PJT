@@ -5,10 +5,25 @@
     xmlns:local="using:SupReader"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:SupReader.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <SplitView DisplayMode="Inline" IsPaneOpen="True">
+            <SplitView.Pane>
+                <controls:Nav1 x:Name="TheNavPane1"/>
+            </SplitView.Pane>
+            
+            <SplitView.Content>
+                <controls:Content x:Name="TheContent"/>
+            </SplitView.Content>
+        </SplitView>
     </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Content="Refresh" Icon="RepeatAll" />
+            <AppBarButton x:Name="SettingsButton" Icon="Setting" Click="SettingsButton_Click" />
+        </CommandBar>
+    </Page.BottomAppBar>
 </Page>

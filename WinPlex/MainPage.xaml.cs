@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using WinPlex.Controls;
+using WinPlex.Pages;
 
 // Pour plus d'informations sur le modèle d'élément Page vierge, consultez la page https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -29,7 +30,8 @@ namespace WinPlex
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            isLogAsync.Main(api.Text);
+            Login.StoreApiKey(api.Text);
+            this.Frame.Navigate(typeof(TaskPage));
         }
     }
 }

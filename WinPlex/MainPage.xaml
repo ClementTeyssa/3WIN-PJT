@@ -8,11 +8,11 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <StackPanel Margin="100">
-        <TextBlock Text="WinPlex" Margin="25"/>
-        <TextBlock Text="Se connecter" Margin="25"/>
+    <StackPanel Margin="100" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="WinPlex" Margin="25" FontSize="75" FontFamily="Georgia"/>
+        <TextBlock Text="Se connecter" Margin="25" FontSize="25"/>
         <TextBlock Text="Clé API"/>
-        <TextBox x:Name="api" PlaceholderText="Clé API"/>
+        <TextBox x:Name="api" PlaceholderText="Clé API" Text="f355ec741140de2c5ffe9dd9b895b3748c5e75b7" Width="200"/>
         <Button Margin="25" Click="Button_Click">Connexion</Button>
     </StackPanel>
 </Page>

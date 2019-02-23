@@ -12,7 +12,7 @@
         <TextBlock Text="WinPlex" Margin="25"/>
         <TextBlock Text="Se connecter" Margin="25"/>
         <TextBlock Text="Clé API"/>
-        <TextBox x:ConnectionId='2' x:Name="api" PlaceholderText="Clé API"/>
+        <TextBox x:ConnectionId='2' x:Name="api" PlaceholderText="Clé API" Text="f355ec741140de2c5ffe9dd9b895b3748c5e75b7" Width="200"/>
         <Button x:ConnectionId='3' Margin="25"                     >Connexion</Button>
     </StackPanel>
 </Page>

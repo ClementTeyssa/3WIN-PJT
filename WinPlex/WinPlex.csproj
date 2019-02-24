@@ -120,6 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Classes\Task.cs" />
+    <Compile Include="Classes\ToAddTask.cs" />
     <Compile Include="Controls\TaskControler.cs" />
     <Compile Include="Controls\LoginControler.cs" />
     <Compile Include="MainPage.xaml.cs">

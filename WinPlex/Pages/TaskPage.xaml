@@ -9,32 +9,41 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Stretch" Margin="25" VerticalAlignment="Stretch" Grid.Column="0">
             <AppBarButton Icon="Back" Style="{StaticResource NavigationBackButtonNormalStyle}" Click="AppBarButton_Click"/>
             <ScrollViewer>
                 <StackPanel>
                     <TextBlock Text="Tâches"  Margin="15" FontSize="35" FontFamily="Georgia" HorizontalAlignment="Center"/>
                     <ListView x:Name="taskListView" ItemsSource="{Binding ListTasks}" LayoutUpdated="TaskListView_LayoutUpdated">
+                        <ListView.Header>
+                            <StackPanel  Orientation="Horizontal" Margin="10">
+                                <TextBlock Text="Priorité" Width="90"/>
+                                <TextBlock Text="Contenu" Width="300"/>
+                                <TextBlock Text="Complêtée ?" Width="90"/>
+                            </StackPanel>
+                        </ListView.Header>
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
-                                    <Border>
-                                        <Grid Margin="5" Width="100">
-                                            <TextBlock Text="{Binding completed}"/>
-                                            <TextBlock Text="{Binding priority}"/>
-                                        </Grid>
-                                    </Border>
-                                    <Border>
-                                        <Grid Margin="5">
-                                            <TextBlock Text="{Binding content}"/>
-                                        </Grid>
-                                    </Border>
+                                    <TextBlock Text="{Binding priority}" Width="90"/>
+                                    <TextBlock Text="{Binding content}" Width="300"/>
+                                    <CheckBox x:Name="IsCompleted" IsChecked="{Binding completed}" Checked="Check_CheckedAsync"/>
                                 </StackPanel>
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
                 </StackPanel>
             </ScrollViewer>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="25">
+            <TextBlock FontSize="25" Text="Ajouter une nouvelle tâche" Margin="25"/>
+            <Slider x:Name="sliderAdd" Minimum="1" Maximum="4" Header="Niveau de priorité" Margin="15"/>
+            <TextBox x:Name="contentAdd" Header="Contenu de la tâche" PlaceholderText="Contenu" Margin="15"/>
+            <Button x:Name="buttonAdd" Margin="15" HorizontalAlignment="Center" Click="ButtonAdd_Click">Ajouter</Button>
         </StackPanel>
     </Grid>
 </Page>

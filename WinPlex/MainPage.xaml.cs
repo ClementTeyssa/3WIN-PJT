@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -31,6 +32,7 @@ namespace WinPlex
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Login.StoreApiKey(api.Text);
+            TaskControler.fetchTaskAsync();
             this.Frame.Navigate(typeof(TaskPage));
         }
     }

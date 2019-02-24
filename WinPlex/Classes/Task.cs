@@ -8,7 +8,7 @@ namespace WinPlex.Classes
 {
     class Task
     {
-        public int id { get; set; }
+        public double id { get; set; }
         public int project_id { get; set; }
         public string content { get; set; }
         public bool completed { get; set; }

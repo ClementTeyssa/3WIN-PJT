@@ -1,0 +1,11 @@
+/out:"D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\WinPlex\obj\x64\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\WinPlex\obj\x64\Release\ilc\intermediate\\"
+/ref:"D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\WinPlex\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\WinPlex\obj\x64\Release\ilc\intermediate\TransformedSRWR"
+/ref:"D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\WinPlex\obj\x64\Release\ilc\in"
+/ref:"D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\WinPlex\obj\x64\Release\ilc\in\\"
+/ref:"D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\WinPlex\obj\x64\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\x64\ilc\lib\Private\\"
+/ref:"D:\OneDrive - SUPINFO\Perso\Cours\SupInfo\Bsc\3WIN - Universal Windows App Development\PJT\3WIN-PJT\WinPlex\obj\x64\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\x64\ilc\csc"

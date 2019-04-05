@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="WinPlex.Pages.TaskPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinPlex.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Stretch" Margin="25" VerticalAlignment="Stretch" Grid.Column="0">
+            <AppBarButton x:ConnectionId='5' Icon="Back" Style="{StaticResource NavigationBackButtonNormalStyle}"                           />
+            <ScrollViewer>
+                <StackPanel>
+                    <TextBlock Text="Tâches"  Margin="15" FontSize="35" FontFamily="Georgia" HorizontalAlignment="Center"/>
+                    <ListView x:ConnectionId='6' x:Name="taskListView" ItemsSource="{Binding ListTasks}"                                           >
+                        <ListView.Header>
+                            <StackPanel  Orientation="Horizontal" Margin="10">
+                                <TextBlock Text="Priorité" Width="90"/>
+                                <TextBlock Text="Contenu" Width="300"/>
+                                <TextBlock Text="Complêtée ?" Width="90"/>
+                            </StackPanel>
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                                    <TextBlock Text="{Binding priority}" Width="90"/>
+                                    <TextBlock Text="{Binding content}" Width="300"/>
+                                    <CheckBox x:ConnectionId='8' x:Name="IsCompleted" IsChecked="{Binding completed}"                             />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="25">
+            <TextBlock FontSize="25" Text="Ajouter une nouvelle tâche" Margin="25"/>
+            <Slider x:ConnectionId='2' x:Name="sliderAdd" Minimum="1" Maximum="4" Header="Niveau de priorité" Margin="15"/>
+            <TextBox x:ConnectionId='3' x:Name="contentAdd" Header="Contenu de la tâche" PlaceholderText="Contenu" Margin="15"/>
+            <Button x:ConnectionId='4' x:Name="buttonAdd" Margin="15" HorizontalAlignment="Center"                        >Ajouter</Button>
+        </StackPanel>
+    </Grid>
+</Page>
+

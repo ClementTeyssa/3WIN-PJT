@@ -1,4 +1,4 @@
-# Winplex
+# C# project release for 3WIN course
 
 Cette application permet de voir sa liste de tâches, les marquées comme complêtées ou en ajouter (pas totalement implémenté).
 
